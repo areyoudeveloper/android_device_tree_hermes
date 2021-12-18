@@ -1,6 +1,6 @@
 # Path
 DEVICE_PATH := device/xiaomi/hermes
-
+TARGET_BUILD_VARIANT := userdebug
 # Platform
 TARGET_BOOTLOADER_BOARD_NAME := mt6795
 TARGET_BOARD_PLATFORM := mt6795
