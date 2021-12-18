@@ -24,7 +24,7 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit from hermes device
 $(call inherit-product, device/xiaomi/hermes/device.mk)
-
+TARGET_BUILD_VARIANT := userdebug
 PRODUCT_DEVICE := hermes
 PRODUCT_NAME := lineage_hermes
 PRODUCT_BRAND := Xiaomi
