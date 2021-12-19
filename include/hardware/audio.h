@@ -416,7 +416,7 @@ struct audio_stream_in {
      * where it's known the audio_stream references an audio_stream_in.
      */
     struct audio_stream common;
-
+    int get_capture_position;
     /** set the input gain for the audio driver. This method is for
      *  for future use */
     int (*set_gain)(struct audio_stream_in *stream, float gain);
